@@ -2,12 +2,6 @@
 layout: default
 ---
 
-# [](#header-1)Header 1
-This is the paragraph immediately following the header 1
-
-
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
