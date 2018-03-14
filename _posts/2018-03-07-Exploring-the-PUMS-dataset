@@ -1,0 +1,36 @@
+---
+layout: default
+title: Exploring the PUMS dataset
+date: 2018-03-07
+---
+
+The PUMS Amerian Community Survey is a dataset from the US 2011 Census, comprised of 3 million individuals and 1.5 million households. This dataset has ~200+ dimensions about individuals and households. I'll use R to load and get an overview of the data.
+
+Dataset availible at (todo: link dataset)
+
+Loading in the data, RStudio shows two frames - dhus (households?) and dpus (persons?)
+
+dhus has 2982 entries covering 210 variables
+dpus has 6279 entries spanning 288 variables
+
+Looks like a decent amount of missing values (NA)
+
+#[]Data preprocessing per Ch2. 
+
+#[]Analyzing Custdata (synthetic)
+
+Can pull straight into R from github using read.table()
+
+custdata <- read.table('',header=T,sep='\t')
+
+Let's analyze with ggplot2
+
+library('ggplot2') did not work, maybe its not installed
+
+StackOverflow mentions:
+
+install.package('ggplot2', dep=TRUE)
+
+Using install.package('ggplot2', dep="TRUE") did not work - R seems picky about noquotes vs single quotes vs double quotes...
+
+ggplot2 takes a WHILE to install!

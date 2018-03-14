@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 title: Vladimir Coxall
 description: some-description
+exclude: [vendor]
