@@ -76,6 +76,7 @@ Now let's revisit the 35 entries with Blood Pressure of zero. As it turns out, e
 698           0      99             0             0       0 25.0                    0.253  22
 704           2     129             0             0       0 38.5                    0.304  41
 707          10     115             0             0       0  0.0                    0.261  30
+```
 
 Since this group seems to have a number of features missing that I think are important to predicting diabetes, and these records make up a small portion of the dataset (4%), I'll just drop them rather than investing time cleaning them. Also, at a glance it seems like these entries are random and not distinct from the rest of the dataset.
 
