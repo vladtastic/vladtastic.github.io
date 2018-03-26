@@ -20,7 +20,7 @@ Let’s assume I’ve guessed 6 of the 10 cartons are 2% milk and in actuality 8
 
 In some sense, these two are at odds because you have to make each individual guess correct but also have to figure out the right proportion of correct guesses. 
 
-Here’s what I mean: In the milk carton example, if I guess every box of milk is 2%, I’ve identified all the 2% milk cartons that exist (high recall). Unfortunately, I’ve also made a lot of bad guesses since a lot of milk cartons that I thought were 2% milk actually were not (low precision). 
+Here’s what I mean: In the milk carton example, if I guess every box of milk is 2%, I’ve identified all the 2% milk cartons that exist (*high recall*). Unfortunately, I’ve also made a lot of bad guesses since a lot of milk cartons that I thought were 2% milk actually were not (*low precision*). 
 
 Or to put is simply: 
 
