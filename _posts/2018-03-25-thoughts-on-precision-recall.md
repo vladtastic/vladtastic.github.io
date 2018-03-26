@@ -1,9 +1,9 @@
 
-——
+——-
 layout: post
 date: 2018-03-25
 title: Thinking about Precision and Recall
-——
+——-
 I got into a discussion today about precision and recall and how to describe them simply. We spent a good bit of time trying to explain these measures simply and I was trying to wrap my head around the differences between the two measures without confusing them. 
 
 I think this is best explained with an example:
@@ -14,9 +14,9 @@ My goal is to use these things I can observe to guess which cartons are 2% milk.
 
 Let’s assume I’ve guessed 6 of the 10 cartons are 2% milk and in actuality 8 cartons are 2% milk. 
 
-—Precision— is how many of the 6 milk cartons I guessed to be 2% actually are. 
+—-Precision—- is how many of the 6 milk cartons I guessed to be 2% actually are. 
 
-—Recall— on the other hand is, given there are 8 cartons of 2% milk, how many did I find?
+—-Recall—- on the other hand is, given there are 8 cartons of 2% milk, how many did I find?
 
 In some sense, these two are at odds because you have to make each individual guess correct but also have to figure out the right proportion of correct guesses. 
 
