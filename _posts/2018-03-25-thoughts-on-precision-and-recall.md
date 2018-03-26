@@ -1,9 +1,9 @@
-
 ---
 layout: post
-date: 2018-03-25
 title: "Thinking about Precision and Recall"
+date: 2018-03-25
 ---
+
 I got into a discussion today about precision and recall and how to describe them simply. We spent a good bit of time trying to explain these measures simply and I was trying to wrap my head around the differences between the two measures without confusing them. 
 
 I think this is best explained with an example:
